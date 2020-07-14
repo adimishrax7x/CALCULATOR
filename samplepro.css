@@ -1,0 +1,48 @@
+*{
+margin : 1px;
+padding : 1px;
+box-sizing : border-box; 
+}
+
+body{
+	background-image:url("https://www.arcgis.com/sharing/rest/content/items/8a8f9c38e7884050ad3cae86781e9d59/resources/1565316759802.jpeg?w=2000");
+	min-height: 100px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.calculator{
+	flex:auto;
+}
+input[type="button"] 
+         { 
+         background-color:lightgreen;
+         opacity:70%;
+         color: black; 
+         font-size:30px;
+         border: solid black 2px; 
+         width:50px;
+         height:50px;
+         margin:5px;
+         } 
+input[type="button"]:hover{
+  background-color:blue;
+  transition:all 2s ease;
+}
+input[type="text"]
+{
+  font-size:100px;
+  width:400px;
+  height:100px;
+  background-color: #d5ff80;
+  margin-bottom:30px;
+  margin-left:3.5px;
+
+}
+label{
+  font-size:50px;
+}
+h1{
+  text-align:left;
+}
